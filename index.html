@@ -26,24 +26,6 @@
   </head>
   <body class="with-welcome-text">
     <div class="container-scroller">
-      <div class="row p-0 m-0 proBanner" id="proBanner">
-        <div class="col-md-12 p-0 m-0">
-          <div class="card-body card-body-padding px-3 d-flex align-items-center justify-content-between">
-            <div class="ps-lg-3">
-              <div class="d-flex align-items-center justify-content-between">
-                <p class="mb-0 fw-medium me-3 buy-now-text">Free 24/7 customer support, updates, and more with this template!</p>
-                <a href="https://www.bootstrapdash.com/product/star-admin-pro/" target="_blank" class="btn me-2 buy-now-btn border-0">Buy Now</a>
-              </div>
-            </div>
-            <div class="d-flex align-items-center justify-content-between">
-              <a href="https://www.bootstrapdash.com/product/star-admin-pro/"><i class="ti-home me-3 text-white"></i></a>
-              <button id="bannerClose" class="btn border-0 p-0">
-                <i class="ti-close text-white"></i>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
       <!-- partial:partials/_navbar.html -->
       <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex align-items-top flex-row">
         <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-start">
@@ -54,11 +36,7 @@
           </div>
           <div>
             <a class="navbar-brand brand-logo" href="index.html">
-              <h3 class="text-black fw-bold" style="font-size: 12;">Geometa</h3>
-              <img src="assets/images/logo.svg" alt="">
-            </a>
-            <a class="navbar-brand brand-logo-mini" href="index.html">
-              <img src="assets/images/logo-mini.svg" alt="logo" />
+              <img src="assets/images/geometa_logo.png" alt="">
             </a>
           </div>
         </div>
@@ -66,7 +44,7 @@
           <ul class="navbar-nav">
             <li class="nav-item fw-semibold d-none d-lg-block ms-0">
               <h1 class="welcome-text">Selamat Datang, <span class="text-black fw-bold">Admin</span></h1>
-              <h3 class="welcome-sub-text">Monitoring Unit</h3>
+              <h3 class="welcome-sub-text">Monitoring Unit PT Geomatik Anugerah Semesta</h3>
             </li>
           </ul>
           <ul class="navbar-nav ms-auto">
@@ -228,8 +206,8 @@
                 <span class="menu-title">Dashboard</span>
               </a>
             </li>
-            <li class="nav-item nav-category">UI Elements</li>
-            <li class="nav-item">
+            <li class="nav-item nav-category d-none">UI Elements</li>
+            <li class="nav-item d-none">
               <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
                 <i class="menu-icon mdi mdi-floor-plan"></i>
                 <span class="menu-title">UI Elements</span>
@@ -243,7 +221,7 @@
                 </ul>
               </div>
             </li>
-            <li class="nav-item">
+            <li class="nav-item d-none">
               <a class="nav-link" data-bs-toggle="collapse" href="#form-elements" aria-expanded="false" aria-controls="form-elements">
                 <i class="menu-icon mdi mdi-card-text-outline"></i>
                 <span class="menu-title">Form elements</span>
@@ -255,7 +233,7 @@
                 </ul>
               </div>
             </li>
-            <li class="nav-item">
+            <li class="nav-item d-none">
               <a class="nav-link" data-bs-toggle="collapse" href="#charts" aria-expanded="false" aria-controls="charts">
                 <i class="menu-icon mdi mdi-chart-line"></i>
                 <span class="menu-title">Charts</span>
@@ -267,7 +245,7 @@
                 </ul>
               </div>
             </li>
-            <li class="nav-item">
+            <li class="nav-item d-none">
               <a class="nav-link" data-bs-toggle="collapse" href="#tables" aria-expanded="false" aria-controls="tables">
                 <i class="menu-icon mdi mdi-table"></i>
                 <span class="menu-title">Tables</span>
@@ -279,7 +257,7 @@
                 </ul>
               </div>
             </li>
-            <li class="nav-item">
+            <li class="nav-item d-none">
               <a class="nav-link" data-bs-toggle="collapse" href="#icons" aria-expanded="false" aria-controls="icons">
                 <i class="menu-icon mdi mdi-layers-outline"></i>
                 <span class="menu-title">Icons</span>
@@ -291,7 +269,7 @@
                 </ul>
               </div>
             </li>
-            <li class="nav-item">
+            <li class="nav-item d-none">
               <a class="nav-link" data-bs-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
                 <i class="menu-icon mdi mdi-account-circle-outline"></i>
                 <span class="menu-title">User Pages</span>
@@ -307,7 +285,7 @@
                 </ul>
               </div>
             </li>
-            <li class="nav-item">
+            <li class="nav-item d-none" >
               <a class="nav-link" href="docs/documentation.html">
                 <i class="menu-icon mdi mdi-file-document"></i>
                 <span class="menu-title">Documentation</span>
@@ -506,7 +484,7 @@
                               </div>
                             </div>
                           </div>
-                          <div class="row flex-grow ">
+                          <div class="row flex-grow d-none">
                             <div class="col-12 grid-margin stretch-card">
                               <div class="card card-rounded d-none">
                                 <div class="card-body">
@@ -849,10 +827,6 @@
                                     <div class="col-lg-12">
                                       <div class="d-flex justify-content-between align-items-center">
                                         <h4 class="card-title card-title-dash">Laporan</h4>
-                                        <div class="add-items d-flex mb-0">
-                                          <!-- <input type="text" class="form-control todo-list-input" placeholder="What do you need to do today?"> -->
-                                          <button class="add btn btn-icons btn-rounded btn-primary todo-list-add-btn text-white me-0 pl-12p"><i class="mdi mdi-plus"></i></button>
-                                        </div>
                                       </div>
                                       <div class="list-wrapper">
                                         <ul class="todo-list todo-list-rounded">
@@ -880,7 +854,7 @@
                                             </div>
                                           </li>
                                           <li>
-                                            <div class="form-check w-100">
+                                            <div class="form-check w-100 d-none">
                                               <label class="form-check-label">
                                                 <input class="" type=""> Lorem Ipsum is simply dummy text of the printing <i class="input-helper rounded"></i>
                                               </label>
