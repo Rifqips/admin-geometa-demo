@@ -304,8 +304,8 @@
         data: {
           labels: ["JAN","FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"],
           datasets: [{
-            label: 'Aktual',
-            data: [110, 220, 200, 190, 220, 110, 210, 110, 205, 202, 201, 150],
+            label: 'Plan',
+            data: [150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150],
             backgroundColor: "#52CDFF",
             borderColor: [
                 '#52CDFF',
@@ -315,7 +315,7 @@
               fill: true, // 3: no fill
               
           },{
-            label: 'Plan',
+            label: 'Aktual',
             data: [215, 290, 210, 250, 290, 230, 290, 210, 280, 220, 190, 300],
             backgroundColor: "#1F3BB3",
             borderColor: [
@@ -538,7 +538,7 @@
       new Chart(leaveReportCanvas, {
         type: 'bar',
         data: {
-          labels: ["EX-01","EX-02", "EX-03", "EX-04", "EX-05"],
+          labels: ["01","02", "03", "04", "05"],
           datasets: [{
               label: 'Aktual',
               data: [18, 25, 39, 11, 24],
